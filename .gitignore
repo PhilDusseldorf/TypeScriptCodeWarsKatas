@@ -1,6 +1,9 @@
 # Build
 dist
 
+#VSCODE
+.vscode
+
 # Logs
 logs
 *.log
