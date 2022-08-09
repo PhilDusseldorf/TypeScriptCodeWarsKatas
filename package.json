@@ -17,6 +17,7 @@
     "!**/__tests__/**/*"
   ],
   "scripts": {
+    "start": "tsc && node dist/index",
     "prepare": "husky install",
     "clean": "rm -rf build coverage",
     "lint": "eslint src",
