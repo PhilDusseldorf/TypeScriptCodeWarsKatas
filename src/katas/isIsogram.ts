@@ -1,13 +1,15 @@
+/* eslint-disable @typescript-eslint/no-unsafe-call */
 export function isIsogram(str: string): boolean {
-  const vowels = '/aeiou/i';
-  const vowelSet = new Set<string>();
-  for (const char of str) {
-    if (RegExp(vowels).exec(char)) {
-      if (vowelSet.has(char)) {
-        return true;
+  const letters = /[a-z]/;
+  const letterSet = new Set<string>();
+  const word: string = str.toLowerCase();
+  for (const char of word) {
+    if (letters.exec(char)) {
+      if (letterSet.has(char)) {
+        return false;
       }
-      vowelSet.add(char);
+      letterSet.add(char);
     }
   }
-  return false;
+  return true;
 }
