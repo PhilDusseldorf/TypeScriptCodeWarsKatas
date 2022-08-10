@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 import { getMessage } from './utils';
-import { reverseWords } from './katas/reverseWords';
+import { duplicateEncoder } from './katas/duplicateEncoder';
 
 console.log(getMessage());
-console.log(reverseWords('ehT kciuq nworb xof spmuj revo eht yzal .god'));
+console.log(duplicateEncode('din'));
