@@ -1,8 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 import { getMessage } from './utils';
-import { isIsogram } from './katas/isIsogram';
-import { findNb } from './katas/findNb';
+import { reverseWords } from './katas/reverseWords';
 
 console.log(getMessage());
-console.log(isIsogram('elhbmuoqdkxjistgnzwpqarc'));
-console.log(findNb(4183059834009));
+console.log(reverseWords('ehT kciuq nworb xof spmuj revo eht yzal .god'));
